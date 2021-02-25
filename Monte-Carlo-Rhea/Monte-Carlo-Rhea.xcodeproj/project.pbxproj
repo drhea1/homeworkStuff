@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6341ECC25E072230083B1AC /* ErrorCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6341ECB25E072230083B1AC /* ErrorCalculator.swift */; };
+		A6341ECD25E072230083B1AC /* ErrorCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6341ECB25E072230083B1AC /* ErrorCalculator.swift */; };
+		A6341ECE25E072230083B1AC /* ErrorCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6341ECB25E072230083B1AC /* ErrorCalculator.swift */; };
+		A6341ECF25E072230083B1AC /* ErrorCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6341ECB25E072230083B1AC /* ErrorCalculator.swift */; };
+		A6341ED525E073BD0083B1AC /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6341ED425E073BD0083B1AC /* DrawingView.swift */; };
+		A6341ED625E073BD0083B1AC /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6341ED425E073BD0083B1AC /* DrawingView.swift */; };
+		A6341ED725E073BD0083B1AC /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6341ED425E073BD0083B1AC /* DrawingView.swift */; };
+		A6341ED825E073BD0083B1AC /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6341ED425E073BD0083B1AC /* DrawingView.swift */; };
+		A671C71F25DDBD32002B183A /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C71E25DDBD32002B183A /* Tests_iOS.swift */; };
+		A671C72A25DDBD32002B183A /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C72925DDBD32002B183A /* Tests_macOS.swift */; };
+		A671C72C25DDBD32002B183A /* Monte_Carlo_RheaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C70325DDBD31002B183A /* Monte_Carlo_RheaApp.swift */; };
+		A671C72D25DDBD32002B183A /* Monte_Carlo_RheaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C70325DDBD31002B183A /* Monte_Carlo_RheaApp.swift */; };
+		A671C72E25DDBD32002B183A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C70425DDBD31002B183A /* ContentView.swift */; };
+		A671C72F25DDBD32002B183A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C70425DDBD31002B183A /* ContentView.swift */; };
+		A671C73025DDBD32002B183A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A671C70525DDBD32002B183A /* Assets.xcassets */; };
+		A671C73125DDBD32002B183A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A671C70525DDBD32002B183A /* Assets.xcassets */; };
+		A671C77525DDD2C4002B183A /* MonteCarlo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C77425DDD2C4002B183A /* MonteCarlo.swift */; };
+		A671C77625DDD2C4002B183A /* MonteCarlo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C77425DDD2C4002B183A /* MonteCarlo.swift */; };
+		A671C77725DDD2C4002B183A /* MonteCarlo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C77425DDD2C4002B183A /* MonteCarlo.swift */; };
+		A671C77825DDD2C4002B183A /* MonteCarlo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C77425DDD2C4002B183A /* MonteCarlo.swift */; };
+		A671C77E25DDD345002B183A /* Ellipsoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C77D25DDD345002B183A /* Ellipsoid.swift */; };
+		A671C77F25DDD345002B183A /* Ellipsoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C77D25DDD345002B183A /* Ellipsoid.swift */; };
+		A671C78025DDD345002B183A /* Ellipsoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C77D25DDD345002B183A /* Ellipsoid.swift */; };
+		A671C78125DDD345002B183A /* Ellipsoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C77D25DDD345002B183A /* Ellipsoid.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A671C71B25DDBD32002B183A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A671C6FE25DDBD31002B183A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A671C70925DDBD32002B183A;
+			remoteInfo = "Monte-Carlo-Rhea (iOS)";
+		};
+		A671C72625DDBD32002B183A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A671C6FE25DDBD31002B183A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A671C71125DDBD32002B183A;
+			remoteInfo = "Monte-Carlo-Rhea (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6341ECB25E072230083B1AC /* ErrorCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCalculator.swift; sourceTree = "<group>"; };
+		A6341ED425E073BD0083B1AC /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawingView.swift; path = "../../../Downloads/Monte-Carlo-Integration-main-2/Shared/DrawingView.swift"; sourceTree = "<group>"; };
+		A671C70325DDBD31002B183A /* Monte_Carlo_RheaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monte_Carlo_RheaApp.swift; sourceTree = "<group>"; };
+		A671C70425DDBD31002B183A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A671C70525DDBD32002B183A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A671C70A25DDBD32002B183A /* Monte-Carlo-Rhea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monte-Carlo-Rhea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A671C70D25DDBD32002B183A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A671C71225DDBD32002B183A /* Monte-Carlo-Rhea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monte-Carlo-Rhea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A671C71425DDBD32002B183A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A671C71525DDBD32002B183A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A671C71A25DDBD32002B183A /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A671C71E25DDBD32002B183A /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		A671C72025DDBD32002B183A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A671C72525DDBD32002B183A /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A671C72925DDBD32002B183A /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		A671C72B25DDBD32002B183A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A671C77425DDD2C4002B183A /* MonteCarlo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarlo.swift; sourceTree = "<group>"; };
+		A671C77D25DDD345002B183A /* Ellipsoid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ellipsoid.swift; path = "../../Homework 1/Shared/Ellipsoid.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A671C70725DDBD32002B183A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A671C70F25DDBD32002B183A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A671C71725DDBD32002B183A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A671C72225DDBD32002B183A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A671C6FD25DDBD31002B183A = {
+			isa = PBXGroup;
+			children = (
+				A671C70225DDBD31002B183A /* Shared */,
+				A671C70C25DDBD32002B183A /* iOS */,
+				A671C71325DDBD32002B183A /* macOS */,
+				A671C71D25DDBD32002B183A /* Tests iOS */,
+				A671C72825DDBD32002B183A /* Tests macOS */,
+				A671C70B25DDBD32002B183A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A671C70225DDBD31002B183A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A671C70325DDBD31002B183A /* Monte_Carlo_RheaApp.swift */,
+				A671C70425DDBD31002B183A /* ContentView.swift */,
+				A671C77425DDD2C4002B183A /* MonteCarlo.swift */,
+				A6341ED425E073BD0083B1AC /* DrawingView.swift */,
+				A6341ECB25E072230083B1AC /* ErrorCalculator.swift */,
+				A671C77D25DDD345002B183A /* Ellipsoid.swift */,
+				A671C70525DDBD32002B183A /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A671C70B25DDBD32002B183A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A671C70A25DDBD32002B183A /* Monte-Carlo-Rhea.app */,
+				A671C71225DDBD32002B183A /* Monte-Carlo-Rhea.app */,
+				A671C71A25DDBD32002B183A /* Tests iOS.xctest */,
+				A671C72525DDBD32002B183A /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A671C70C25DDBD32002B183A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A671C70D25DDBD32002B183A /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		A671C71325DDBD32002B183A /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A671C71425DDBD32002B183A /* Info.plist */,
+				A671C71525DDBD32002B183A /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		A671C71D25DDBD32002B183A /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A671C71E25DDBD32002B183A /* Tests_iOS.swift */,
+				A671C72025DDBD32002B183A /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		A671C72825DDBD32002B183A /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A671C72925DDBD32002B183A /* Tests_macOS.swift */,
+				A671C72B25DDBD32002B183A /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A671C70925DDBD32002B183A /* Monte-Carlo-Rhea (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A671C73425DDBD32002B183A /* Build configuration list for PBXNativeTarget "Monte-Carlo-Rhea (iOS)" */;
+			buildPhases = (
+				A671C70625DDBD32002B183A /* Sources */,
+				A671C70725DDBD32002B183A /* Frameworks */,
+				A671C70825DDBD32002B183A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Monte-Carlo-Rhea (iOS)";
+			productName = "Monte-Carlo-Rhea (iOS)";
+			productReference = A671C70A25DDBD32002B183A /* Monte-Carlo-Rhea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A671C71125DDBD32002B183A /* Monte-Carlo-Rhea (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A671C73725DDBD32002B183A /* Build configuration list for PBXNativeTarget "Monte-Carlo-Rhea (macOS)" */;
+			buildPhases = (
+				A671C70E25DDBD32002B183A /* Sources */,
+				A671C70F25DDBD32002B183A /* Frameworks */,
+				A671C71025DDBD32002B183A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Monte-Carlo-Rhea (macOS)";
+			productName = "Monte-Carlo-Rhea (macOS)";
+			productReference = A671C71225DDBD32002B183A /* Monte-Carlo-Rhea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A671C71925DDBD32002B183A /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A671C73A25DDBD32002B183A /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				A671C71625DDBD32002B183A /* Sources */,
+				A671C71725DDBD32002B183A /* Frameworks */,
+				A671C71825DDBD32002B183A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A671C71C25DDBD32002B183A /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = A671C71A25DDBD32002B183A /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A671C72425DDBD32002B183A /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A671C73D25DDBD32002B183A /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				A671C72125DDBD32002B183A /* Sources */,
+				A671C72225DDBD32002B183A /* Frameworks */,
+				A671C72325DDBD32002B183A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A671C72725DDBD32002B183A /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = A671C72525DDBD32002B183A /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A671C6FE25DDBD31002B183A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A671C70925DDBD32002B183A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A671C71125DDBD32002B183A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A671C71925DDBD32002B183A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A671C70925DDBD32002B183A;
+					};
+					A671C72425DDBD32002B183A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A671C71125DDBD32002B183A;
+					};
+				};
+			};
+			buildConfigurationList = A671C70125DDBD31002B183A /* Build configuration list for PBXProject "Monte-Carlo-Rhea" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A671C6FD25DDBD31002B183A;
+			productRefGroup = A671C70B25DDBD32002B183A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A671C70925DDBD32002B183A /* Monte-Carlo-Rhea (iOS) */,
+				A671C71125DDBD32002B183A /* Monte-Carlo-Rhea (macOS) */,
+				A671C71925DDBD32002B183A /* Tests iOS */,
+				A671C72425DDBD32002B183A /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A671C70825DDBD32002B183A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A671C73025DDBD32002B183A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A671C71025DDBD32002B183A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A671C73125DDBD32002B183A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A671C71825DDBD32002B183A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A671C72325DDBD32002B183A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A671C70625DDBD32002B183A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A671C77525DDD2C4002B183A /* MonteCarlo.swift in Sources */,
+				A671C72E25DDBD32002B183A /* ContentView.swift in Sources */,
+				A671C72C25DDBD32002B183A /* Monte_Carlo_RheaApp.swift in Sources */,
+				A6341ED525E073BD0083B1AC /* DrawingView.swift in Sources */,
+				A671C77E25DDD345002B183A /* Ellipsoid.swift in Sources */,
+				A6341ECC25E072230083B1AC /* ErrorCalculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A671C70E25DDBD32002B183A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A671C77625DDD2C4002B183A /* MonteCarlo.swift in Sources */,
+				A671C72F25DDBD32002B183A /* ContentView.swift in Sources */,
+				A671C72D25DDBD32002B183A /* Monte_Carlo_RheaApp.swift in Sources */,
+				A6341ED625E073BD0083B1AC /* DrawingView.swift in Sources */,
+				A671C77F25DDD345002B183A /* Ellipsoid.swift in Sources */,
+				A6341ECD25E072230083B1AC /* ErrorCalculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A671C71625DDBD32002B183A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6341ECE25E072230083B1AC /* ErrorCalculator.swift in Sources */,
+				A671C78025DDD345002B183A /* Ellipsoid.swift in Sources */,
+				A6341ED725E073BD0083B1AC /* DrawingView.swift in Sources */,
+				A671C71F25DDBD32002B183A /* Tests_iOS.swift in Sources */,
+				A671C77725DDD2C4002B183A /* MonteCarlo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A671C72125DDBD32002B183A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6341ECF25E072230083B1AC /* ErrorCalculator.swift in Sources */,
+				A671C78125DDD345002B183A /* Ellipsoid.swift in Sources */,
+				A6341ED825E073BD0083B1AC /* DrawingView.swift in Sources */,
+				A671C72A25DDBD32002B183A /* Tests_macOS.swift in Sources */,
+				A671C77825DDD2C4002B183A /* MonteCarlo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A671C71C25DDBD32002B183A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A671C70925DDBD32002B183A /* Monte-Carlo-Rhea (iOS) */;
+			targetProxy = A671C71B25DDBD32002B183A /* PBXContainerItemProxy */;
+		};
+		A671C72725DDBD32002B183A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A671C71125DDBD32002B183A /* Monte-Carlo-Rhea (macOS) */;
+			targetProxy = A671C72625DDBD32002B183A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A671C73225DDBD32002B183A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A671C73325DDBD32002B183A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A671C73525DDBD32002B183A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Monte-Carlo-Rhea";
+				PRODUCT_NAME = "Monte-Carlo-Rhea";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A671C73625DDBD32002B183A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Monte-Carlo-Rhea";
+				PRODUCT_NAME = "Monte-Carlo-Rhea";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A671C73825DDBD32002B183A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Monte-Carlo-Rhea";
+				PRODUCT_NAME = "Monte-Carlo-Rhea";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A671C73925DDBD32002B183A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Monte-Carlo-Rhea";
+				PRODUCT_NAME = "Monte-Carlo-Rhea";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A671C73B25DDBD32002B183A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Monte-Carlo-Rhea (iOS)";
+			};
+			name = Debug;
+		};
+		A671C73C25DDBD32002B183A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Monte-Carlo-Rhea (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A671C73E25DDBD32002B183A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Monte-Carlo-Rhea (macOS)";
+			};
+			name = Debug;
+		};
+		A671C73F25DDBD32002B183A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Monte-Carlo-Rhea (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A671C70125DDBD31002B183A /* Build configuration list for PBXProject "Monte-Carlo-Rhea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A671C73225DDBD32002B183A /* Debug */,
+				A671C73325DDBD32002B183A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A671C73425DDBD32002B183A /* Build configuration list for PBXNativeTarget "Monte-Carlo-Rhea (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A671C73525DDBD32002B183A /* Debug */,
+				A671C73625DDBD32002B183A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A671C73725DDBD32002B183A /* Build configuration list for PBXNativeTarget "Monte-Carlo-Rhea (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A671C73825DDBD32002B183A /* Debug */,
+				A671C73925DDBD32002B183A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A671C73A25DDBD32002B183A /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A671C73B25DDBD32002B183A /* Debug */,
+				A671C73C25DDBD32002B183A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A671C73D25DDBD32002B183A /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A671C73E25DDBD32002B183A /* Debug */,
+				A671C73F25DDBD32002B183A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A671C6FE25DDBD31002B183A /* Project object */;
+}
