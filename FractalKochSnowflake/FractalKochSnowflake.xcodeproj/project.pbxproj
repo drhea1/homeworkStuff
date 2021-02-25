@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A60AEC4B25E726C800AE023B /* DrawSnowflake.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60AEC4A25E726C800AE023B /* DrawSnowflake.swift */; };
+		A60AEC4C25E726C800AE023B /* DrawSnowflake.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60AEC4A25E726C800AE023B /* DrawSnowflake.swift */; };
+		A60AEC4D25E726C800AE023B /* DrawSnowflake.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60AEC4A25E726C800AE023B /* DrawSnowflake.swift */; };
+		A60AEC4E25E726C800AE023B /* DrawSnowflake.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60AEC4A25E726C800AE023B /* DrawSnowflake.swift */; };
+		A63A0A3825E4620000791CAE /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A0A3725E4620000791CAE /* Tests_iOS.swift */; };
+		A63A0A4325E4620000791CAE /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A0A4225E4620000791CAE /* Tests_macOS.swift */; };
+		A63A0A4525E4620000791CAE /* FractalKochSnowflakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A0A1C25E461FC00791CAE /* FractalKochSnowflakeApp.swift */; };
+		A63A0A4625E4620000791CAE /* FractalKochSnowflakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A0A1C25E461FC00791CAE /* FractalKochSnowflakeApp.swift */; };
+		A63A0A4725E4620000791CAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A0A1D25E461FC00791CAE /* ContentView.swift */; };
+		A63A0A4825E4620000791CAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A0A1D25E461FC00791CAE /* ContentView.swift */; };
+		A63A0A4925E4620000791CAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A63A0A1E25E4620000791CAE /* Assets.xcassets */; };
+		A63A0A4A25E4620000791CAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A63A0A1E25E4620000791CAE /* Assets.xcassets */; };
+		A63A0A5E25E4622700791CAE /* KochSnowflakeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A0A5D25E4622700791CAE /* KochSnowflakeDetails.swift */; };
+		A63A0A5F25E4622700791CAE /* KochSnowflakeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A0A5D25E4622700791CAE /* KochSnowflakeDetails.swift */; };
+		A63A0A6025E4622700791CAE /* KochSnowflakeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A0A5D25E4622700791CAE /* KochSnowflakeDetails.swift */; };
+		A63A0A6125E4622700791CAE /* KochSnowflakeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A0A5D25E4622700791CAE /* KochSnowflakeDetails.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A63A0A3425E4620000791CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A63A0A1725E461FC00791CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A63A0A2225E4620000791CAE;
+			remoteInfo = "FractalKochSnowflake (iOS)";
+		};
+		A63A0A3F25E4620000791CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A63A0A1725E461FC00791CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A63A0A2A25E4620000791CAE;
+			remoteInfo = "FractalKochSnowflake (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A60AEC4A25E726C800AE023B /* DrawSnowflake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawSnowflake.swift; sourceTree = "<group>"; };
+		A63A0A1C25E461FC00791CAE /* FractalKochSnowflakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractalKochSnowflakeApp.swift; sourceTree = "<group>"; };
+		A63A0A1D25E461FC00791CAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A63A0A1E25E4620000791CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A63A0A2325E4620000791CAE /* FractalKochSnowflake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FractalKochSnowflake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63A0A2625E4620000791CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A63A0A2B25E4620000791CAE /* FractalKochSnowflake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FractalKochSnowflake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63A0A2D25E4620000791CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A63A0A2E25E4620000791CAE /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A63A0A3325E4620000791CAE /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63A0A3725E4620000791CAE /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		A63A0A3925E4620000791CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A63A0A3E25E4620000791CAE /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63A0A4225E4620000791CAE /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		A63A0A4425E4620000791CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A63A0A5D25E4622700791CAE /* KochSnowflakeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KochSnowflakeDetails.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A63A0A2025E4620000791CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63A0A2825E4620000791CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63A0A3025E4620000791CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63A0A3B25E4620000791CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A63A0A1625E461FC00791CAE = {
+			isa = PBXGroup;
+			children = (
+				A63A0A1B25E461FC00791CAE /* Shared */,
+				A63A0A2525E4620000791CAE /* iOS */,
+				A63A0A2C25E4620000791CAE /* macOS */,
+				A63A0A3625E4620000791CAE /* Tests iOS */,
+				A63A0A4125E4620000791CAE /* Tests macOS */,
+				A63A0A2425E4620000791CAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A63A0A1B25E461FC00791CAE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A63A0A1C25E461FC00791CAE /* FractalKochSnowflakeApp.swift */,
+				A63A0A1D25E461FC00791CAE /* ContentView.swift */,
+				A60AEC4A25E726C800AE023B /* DrawSnowflake.swift */,
+				A63A0A5D25E4622700791CAE /* KochSnowflakeDetails.swift */,
+				A63A0A1E25E4620000791CAE /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A63A0A2425E4620000791CAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A63A0A2325E4620000791CAE /* FractalKochSnowflake.app */,
+				A63A0A2B25E4620000791CAE /* FractalKochSnowflake.app */,
+				A63A0A3325E4620000791CAE /* Tests iOS.xctest */,
+				A63A0A3E25E4620000791CAE /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A63A0A2525E4620000791CAE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A63A0A2625E4620000791CAE /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		A63A0A2C25E4620000791CAE /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A63A0A2D25E4620000791CAE /* Info.plist */,
+				A63A0A2E25E4620000791CAE /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		A63A0A3625E4620000791CAE /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A63A0A3725E4620000791CAE /* Tests_iOS.swift */,
+				A63A0A3925E4620000791CAE /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		A63A0A4125E4620000791CAE /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A63A0A4225E4620000791CAE /* Tests_macOS.swift */,
+				A63A0A4425E4620000791CAE /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A63A0A2225E4620000791CAE /* FractalKochSnowflake (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A63A0A4D25E4620000791CAE /* Build configuration list for PBXNativeTarget "FractalKochSnowflake (iOS)" */;
+			buildPhases = (
+				A63A0A1F25E4620000791CAE /* Sources */,
+				A63A0A2025E4620000791CAE /* Frameworks */,
+				A63A0A2125E4620000791CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FractalKochSnowflake (iOS)";
+			productName = "FractalKochSnowflake (iOS)";
+			productReference = A63A0A2325E4620000791CAE /* FractalKochSnowflake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A63A0A2A25E4620000791CAE /* FractalKochSnowflake (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A63A0A5025E4620000791CAE /* Build configuration list for PBXNativeTarget "FractalKochSnowflake (macOS)" */;
+			buildPhases = (
+				A63A0A2725E4620000791CAE /* Sources */,
+				A63A0A2825E4620000791CAE /* Frameworks */,
+				A63A0A2925E4620000791CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FractalKochSnowflake (macOS)";
+			productName = "FractalKochSnowflake (macOS)";
+			productReference = A63A0A2B25E4620000791CAE /* FractalKochSnowflake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A63A0A3225E4620000791CAE /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A63A0A5325E4620000791CAE /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				A63A0A2F25E4620000791CAE /* Sources */,
+				A63A0A3025E4620000791CAE /* Frameworks */,
+				A63A0A3125E4620000791CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A63A0A3525E4620000791CAE /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = A63A0A3325E4620000791CAE /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A63A0A3D25E4620000791CAE /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A63A0A5625E4620000791CAE /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				A63A0A3A25E4620000791CAE /* Sources */,
+				A63A0A3B25E4620000791CAE /* Frameworks */,
+				A63A0A3C25E4620000791CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A63A0A4025E4620000791CAE /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = A63A0A3E25E4620000791CAE /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A63A0A1725E461FC00791CAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A63A0A2225E4620000791CAE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A63A0A2A25E4620000791CAE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A63A0A3225E4620000791CAE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A63A0A2225E4620000791CAE;
+					};
+					A63A0A3D25E4620000791CAE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A63A0A2A25E4620000791CAE;
+					};
+				};
+			};
+			buildConfigurationList = A63A0A1A25E461FC00791CAE /* Build configuration list for PBXProject "FractalKochSnowflake" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A63A0A1625E461FC00791CAE;
+			productRefGroup = A63A0A2425E4620000791CAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A63A0A2225E4620000791CAE /* FractalKochSnowflake (iOS) */,
+				A63A0A2A25E4620000791CAE /* FractalKochSnowflake (macOS) */,
+				A63A0A3225E4620000791CAE /* Tests iOS */,
+				A63A0A3D25E4620000791CAE /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A63A0A2125E4620000791CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63A0A4925E4620000791CAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63A0A2925E4620000791CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63A0A4A25E4620000791CAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63A0A3125E4620000791CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63A0A3C25E4620000791CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A63A0A1F25E4620000791CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63A0A4725E4620000791CAE /* ContentView.swift in Sources */,
+				A63A0A5E25E4622700791CAE /* KochSnowflakeDetails.swift in Sources */,
+				A60AEC4B25E726C800AE023B /* DrawSnowflake.swift in Sources */,
+				A63A0A4525E4620000791CAE /* FractalKochSnowflakeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63A0A2725E4620000791CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63A0A4825E4620000791CAE /* ContentView.swift in Sources */,
+				A63A0A5F25E4622700791CAE /* KochSnowflakeDetails.swift in Sources */,
+				A60AEC4C25E726C800AE023B /* DrawSnowflake.swift in Sources */,
+				A63A0A4625E4620000791CAE /* FractalKochSnowflakeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63A0A2F25E4620000791CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63A0A6025E4622700791CAE /* KochSnowflakeDetails.swift in Sources */,
+				A63A0A3825E4620000791CAE /* Tests_iOS.swift in Sources */,
+				A60AEC4D25E726C800AE023B /* DrawSnowflake.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63A0A3A25E4620000791CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63A0A6125E4622700791CAE /* KochSnowflakeDetails.swift in Sources */,
+				A63A0A4325E4620000791CAE /* Tests_macOS.swift in Sources */,
+				A60AEC4E25E726C800AE023B /* DrawSnowflake.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A63A0A3525E4620000791CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A63A0A2225E4620000791CAE /* FractalKochSnowflake (iOS) */;
+			targetProxy = A63A0A3425E4620000791CAE /* PBXContainerItemProxy */;
+		};
+		A63A0A4025E4620000791CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A63A0A2A25E4620000791CAE /* FractalKochSnowflake (macOS) */;
+			targetProxy = A63A0A3F25E4620000791CAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A63A0A4B25E4620000791CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A63A0A4C25E4620000791CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A63A0A4E25E4620000791CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dariit.FractalKochSnowflake;
+				PRODUCT_NAME = FractalKochSnowflake;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A63A0A4F25E4620000791CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dariit.FractalKochSnowflake;
+				PRODUCT_NAME = FractalKochSnowflake;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A63A0A5125E4620000791CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dariit.FractalKochSnowflake;
+				PRODUCT_NAME = FractalKochSnowflake;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A63A0A5225E4620000791CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dariit.FractalKochSnowflake;
+				PRODUCT_NAME = FractalKochSnowflake;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A63A0A5425E4620000791CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FractalKochSnowflake (iOS)";
+			};
+			name = Debug;
+		};
+		A63A0A5525E4620000791CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FractalKochSnowflake (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A63A0A5725E4620000791CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FractalKochSnowflake (macOS)";
+			};
+			name = Debug;
+		};
+		A63A0A5825E4620000791CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariit.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FractalKochSnowflake (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A63A0A1A25E461FC00791CAE /* Build configuration list for PBXProject "FractalKochSnowflake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63A0A4B25E4620000791CAE /* Debug */,
+				A63A0A4C25E4620000791CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A63A0A4D25E4620000791CAE /* Build configuration list for PBXNativeTarget "FractalKochSnowflake (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63A0A4E25E4620000791CAE /* Debug */,
+				A63A0A4F25E4620000791CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A63A0A5025E4620000791CAE /* Build configuration list for PBXNativeTarget "FractalKochSnowflake (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63A0A5125E4620000791CAE /* Debug */,
+				A63A0A5225E4620000791CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A63A0A5325E4620000791CAE /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63A0A5425E4620000791CAE /* Debug */,
+				A63A0A5525E4620000791CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A63A0A5625E4620000791CAE /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63A0A5725E4620000791CAE /* Debug */,
+				A63A0A5825E4620000791CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A63A0A1725E461FC00791CAE /* Project object */;
+}
