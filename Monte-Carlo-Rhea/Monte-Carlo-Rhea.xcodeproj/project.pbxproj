@@ -11,10 +11,6 @@
 		A6341ECD25E072230083B1AC /* ErrorCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6341ECB25E072230083B1AC /* ErrorCalculator.swift */; };
 		A6341ECE25E072230083B1AC /* ErrorCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6341ECB25E072230083B1AC /* ErrorCalculator.swift */; };
 		A6341ECF25E072230083B1AC /* ErrorCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6341ECB25E072230083B1AC /* ErrorCalculator.swift */; };
-		A6341ED525E073BD0083B1AC /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6341ED425E073BD0083B1AC /* DrawingView.swift */; };
-		A6341ED625E073BD0083B1AC /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6341ED425E073BD0083B1AC /* DrawingView.swift */; };
-		A6341ED725E073BD0083B1AC /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6341ED425E073BD0083B1AC /* DrawingView.swift */; };
-		A6341ED825E073BD0083B1AC /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6341ED425E073BD0083B1AC /* DrawingView.swift */; };
 		A671C71F25DDBD32002B183A /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C71E25DDBD32002B183A /* Tests_iOS.swift */; };
 		A671C72A25DDBD32002B183A /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C72925DDBD32002B183A /* Tests_macOS.swift */; };
 		A671C72C25DDBD32002B183A /* Monte_Carlo_RheaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C70325DDBD31002B183A /* Monte_Carlo_RheaApp.swift */; };
@@ -31,6 +27,10 @@
 		A671C77F25DDD345002B183A /* Ellipsoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C77D25DDD345002B183A /* Ellipsoid.swift */; };
 		A671C78025DDD345002B183A /* Ellipsoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C77D25DDD345002B183A /* Ellipsoid.swift */; };
 		A671C78125DDD345002B183A /* Ellipsoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671C77D25DDD345002B183A /* Ellipsoid.swift */; };
+		A680486F25E9ABC5007787E3 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A680486E25E9ABC5007787E3 /* DrawingView.swift */; };
+		A680487025E9ABC5007787E3 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A680486E25E9ABC5007787E3 /* DrawingView.swift */; };
+		A680487125E9ABC5007787E3 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A680486E25E9ABC5007787E3 /* DrawingView.swift */; };
+		A680487225E9ABC5007787E3 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A680486E25E9ABC5007787E3 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,6 @@
 
 /* Begin PBXFileReference section */
 		A6341ECB25E072230083B1AC /* ErrorCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCalculator.swift; sourceTree = "<group>"; };
-		A6341ED425E073BD0083B1AC /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawingView.swift; path = "../../../Downloads/Monte-Carlo-Integration-main-2/Shared/DrawingView.swift"; sourceTree = "<group>"; };
 		A671C70325DDBD31002B183A /* Monte_Carlo_RheaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monte_Carlo_RheaApp.swift; sourceTree = "<group>"; };
 		A671C70425DDBD31002B183A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A671C70525DDBD32002B183A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,6 +68,7 @@
 		A671C72B25DDBD32002B183A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A671C77425DDD2C4002B183A /* MonteCarlo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarlo.swift; sourceTree = "<group>"; };
 		A671C77D25DDD345002B183A /* Ellipsoid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ellipsoid.swift; path = "../../Homework 1/Shared/Ellipsoid.swift"; sourceTree = "<group>"; };
+		A680486E25E9ABC5007787E3 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DrawingView.swift; path = ../DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +121,7 @@
 				A671C70325DDBD31002B183A /* Monte_Carlo_RheaApp.swift */,
 				A671C70425DDBD31002B183A /* ContentView.swift */,
 				A671C77425DDD2C4002B183A /* MonteCarlo.swift */,
-				A6341ED425E073BD0083B1AC /* DrawingView.swift */,
+				A680486E25E9ABC5007787E3 /* DrawingView.swift */,
 				A6341ECB25E072230083B1AC /* ErrorCalculator.swift */,
 				A671C77D25DDD345002B183A /* Ellipsoid.swift */,
 				A671C70525DDBD32002B183A /* Assets.xcassets */,
@@ -332,10 +332,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A680486F25E9ABC5007787E3 /* DrawingView.swift in Sources */,
 				A671C77525DDD2C4002B183A /* MonteCarlo.swift in Sources */,
 				A671C72E25DDBD32002B183A /* ContentView.swift in Sources */,
 				A671C72C25DDBD32002B183A /* Monte_Carlo_RheaApp.swift in Sources */,
-				A6341ED525E073BD0083B1AC /* DrawingView.swift in Sources */,
 				A671C77E25DDD345002B183A /* Ellipsoid.swift in Sources */,
 				A6341ECC25E072230083B1AC /* ErrorCalculator.swift in Sources */,
 			);
@@ -345,10 +345,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A680487025E9ABC5007787E3 /* DrawingView.swift in Sources */,
 				A671C77625DDD2C4002B183A /* MonteCarlo.swift in Sources */,
 				A671C72F25DDBD32002B183A /* ContentView.swift in Sources */,
 				A671C72D25DDBD32002B183A /* Monte_Carlo_RheaApp.swift in Sources */,
-				A6341ED625E073BD0083B1AC /* DrawingView.swift in Sources */,
 				A671C77F25DDD345002B183A /* Ellipsoid.swift in Sources */,
 				A6341ECD25E072230083B1AC /* ErrorCalculator.swift in Sources */,
 			);
@@ -360,7 +360,7 @@
 			files = (
 				A6341ECE25E072230083B1AC /* ErrorCalculator.swift in Sources */,
 				A671C78025DDD345002B183A /* Ellipsoid.swift in Sources */,
-				A6341ED725E073BD0083B1AC /* DrawingView.swift in Sources */,
+				A680487125E9ABC5007787E3 /* DrawingView.swift in Sources */,
 				A671C71F25DDBD32002B183A /* Tests_iOS.swift in Sources */,
 				A671C77725DDD2C4002B183A /* MonteCarlo.swift in Sources */,
 			);
@@ -372,7 +372,7 @@
 			files = (
 				A6341ECF25E072230083B1AC /* ErrorCalculator.swift in Sources */,
 				A671C78125DDD345002B183A /* Ellipsoid.swift in Sources */,
-				A6341ED825E073BD0083B1AC /* DrawingView.swift in Sources */,
+				A680487225E9ABC5007787E3 /* DrawingView.swift in Sources */,
 				A671C72A25DDBD32002B183A /* Tests_macOS.swift in Sources */,
 				A671C77825DDD2C4002B183A /* MonteCarlo.swift in Sources */,
 			);
