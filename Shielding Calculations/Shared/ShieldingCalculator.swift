@@ -28,6 +28,7 @@ class ShieldingCalculator: NSObject, ObservableObject {
     @Published var numberOfParticlesString = "1"
     @Published var numberEscapedString = "0"
     @Published var percentEscapedString = "0.0"
+    @Published var numberOfMovementsString = "0"
     
     @Published var finalPositionEachParticle = [(xPoint: Double, yPoint: Double)]()
         
@@ -40,6 +41,8 @@ class ShieldingCalculator: NSObject, ObservableObject {
         numberOfParticlesString = String(numberOfParticles)
         
         let numberOfMovements = energyLoss.lossCalculator(energyLossInput: percentEnergyLost)
+        
+        numberOfMovementsString = String(numberOfMovements)
         
         var point = (xPoint: 0.0, yPoint: 0.0)
         var tempData : [(xPoint: Double, yPoint: Double)] = []

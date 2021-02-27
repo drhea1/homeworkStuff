@@ -51,6 +51,10 @@ struct ContentView: View {
                     Text("Percent Escaped")
                     TextField("% escaped", text: $shielding.percentEscapedString)
                 }.padding()
+                VStack {
+                    Text("Number of Movements")
+                    TextField("# movements", text: $shielding.numberOfMovementsString)
+                }.padding()
             }
             
             VStack {
@@ -65,6 +69,8 @@ struct ContentView: View {
     
     
     func calculateButton() {
+        
+        self.clearButton()
         
         energyLoss = Double(energyLossString)!
         numberOfParticles = Int(numberOfParticlesString)!
@@ -91,6 +97,7 @@ struct ContentView: View {
         shielding.numberOfParticlesString = "1"
         shielding.numberEscapedString = "0"
         shielding.percentEscapedString = "0.0"
+        shielding.numberOfMovementsString = "0"
         
         shielding.finalPositionEachParticle = []
     }

@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A60AEC5825E73B6B00AE023B /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60AEC5725E73B6B00AE023B /* DrawingView.swift */; };
-		A60AEC5925E73B6B00AE023B /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60AEC5725E73B6B00AE023B /* DrawingView.swift */; };
-		A60AEC5A25E73B6B00AE023B /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60AEC5725E73B6B00AE023B /* DrawingView.swift */; };
-		A60AEC5B25E73B6B00AE023B /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60AEC5725E73B6B00AE023B /* DrawingView.swift */; };
 		A63A09DF25E4288100791CAE /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A09DE25E4288100791CAE /* Tests_iOS.swift */; };
 		A63A09EA25E4288100791CAE /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A09E925E4288100791CAE /* Tests_macOS.swift */; };
 		A63A09EC25E4288100791CAE /* Shielding_CalculationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A09C325E4287E00791CAE /* Shielding_CalculationsApp.swift */; };
@@ -27,6 +23,10 @@
 		A63A0A0F25E4309C00791CAE /* ShieldingCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A0A0D25E4309C00791CAE /* ShieldingCalculator.swift */; };
 		A63A0A1025E4309C00791CAE /* ShieldingCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A0A0D25E4309C00791CAE /* ShieldingCalculator.swift */; };
 		A63A0A1125E4309C00791CAE /* ShieldingCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A0A0D25E4309C00791CAE /* ShieldingCalculator.swift */; };
+		A680487C25E9C968007787E3 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A680487B25E9C968007787E3 /* DrawingView.swift */; };
+		A680487D25E9C968007787E3 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A680487B25E9C968007787E3 /* DrawingView.swift */; };
+		A680487E25E9C968007787E3 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A680487B25E9C968007787E3 /* DrawingView.swift */; };
+		A680487F25E9C968007787E3 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A680487B25E9C968007787E3 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A60AEC5725E73B6B00AE023B /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawingView.swift; path = "../../../Downloads/Monte-Carlo-Integration-main/Shared/DrawingView.swift"; sourceTree = "<group>"; };
 		A63A09C325E4287E00791CAE /* Shielding_CalculationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shielding_CalculationsApp.swift; sourceTree = "<group>"; };
 		A63A09C425E4287E00791CAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A63A09C525E4288100791CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,6 +63,7 @@
 		A63A09EB25E4288100791CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A63A0A0425E42DB200791CAE /* EnergyLossCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyLossCalculator.swift; sourceTree = "<group>"; };
 		A63A0A0D25E4309C00791CAE /* ShieldingCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldingCalculator.swift; sourceTree = "<group>"; };
+		A680487B25E9C968007787E3 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 			children = (
 				A63A09C325E4287E00791CAE /* Shielding_CalculationsApp.swift */,
 				A63A09C425E4287E00791CAE /* ContentView.swift */,
-				A60AEC5725E73B6B00AE023B /* DrawingView.swift */,
+				A680487B25E9C968007787E3 /* DrawingView.swift */,
 				A63A0A0425E42DB200791CAE /* EnergyLossCalculator.swift */,
 				A63A0A0D25E4309C00791CAE /* ShieldingCalculator.swift */,
 				A63A09C525E4288100791CAE /* Assets.xcassets */,
@@ -328,7 +328,7 @@
 			files = (
 				A63A0A0525E42DB200791CAE /* EnergyLossCalculator.swift in Sources */,
 				A63A0A0E25E4309C00791CAE /* ShieldingCalculator.swift in Sources */,
-				A60AEC5825E73B6B00AE023B /* DrawingView.swift in Sources */,
+				A680487C25E9C968007787E3 /* DrawingView.swift in Sources */,
 				A63A09EE25E4288100791CAE /* ContentView.swift in Sources */,
 				A63A09EC25E4288100791CAE /* Shielding_CalculationsApp.swift in Sources */,
 			);
@@ -340,7 +340,7 @@
 			files = (
 				A63A0A0625E42DB200791CAE /* EnergyLossCalculator.swift in Sources */,
 				A63A0A0F25E4309C00791CAE /* ShieldingCalculator.swift in Sources */,
-				A60AEC5925E73B6B00AE023B /* DrawingView.swift in Sources */,
+				A680487D25E9C968007787E3 /* DrawingView.swift in Sources */,
 				A63A09EF25E4288100791CAE /* ContentView.swift in Sources */,
 				A63A09ED25E4288100791CAE /* Shielding_CalculationsApp.swift in Sources */,
 			);
@@ -352,8 +352,8 @@
 			files = (
 				A63A0A0725E42DB200791CAE /* EnergyLossCalculator.swift in Sources */,
 				A63A0A1025E4309C00791CAE /* ShieldingCalculator.swift in Sources */,
+				A680487E25E9C968007787E3 /* DrawingView.swift in Sources */,
 				A63A09DF25E4288100791CAE /* Tests_iOS.swift in Sources */,
-				A60AEC5A25E73B6B00AE023B /* DrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,8 +363,8 @@
 			files = (
 				A63A0A0825E42DB200791CAE /* EnergyLossCalculator.swift in Sources */,
 				A63A0A1125E4309C00791CAE /* ShieldingCalculator.swift in Sources */,
+				A680487F25E9C968007787E3 /* DrawingView.swift in Sources */,
 				A63A09EA25E4288100791CAE /* Tests_macOS.swift in Sources */,
-				A60AEC5B25E73B6B00AE023B /* DrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
